@@ -1,0 +1,39 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#gifContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  #winGif {
+    width: 100px; /* ajusta el tamaño según tus necesidades */
+    height: 100px; /* ajusta el tamaño según tus necesidades */
+    margin-left: 10px; /* ajusta el margen según tus necesidades */
+    display: none;
+  }
+  #gatoGanador{
+    position: relative;
+    left: 582px;
+    bottom: -19px;
+    width: 100px; /* ajusta el tamaño según tus necesidades */
+    display: none;
+  }
+  
